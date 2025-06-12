@@ -1,5 +1,3 @@
-# tasko-task-management-app
-Modern task management application with advanced features
 # Tasko – Task Management Web App
 ## Link Deploy: 
 ![image](https://github.com/user-attachments/assets/3c47cd4b-4660-4476-9cf8-033726a8ceca)
