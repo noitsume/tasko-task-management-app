@@ -81,8 +81,8 @@ const translations = {
     email: "Email",
     website: "Website",
     address: "Alamat",
-    addressValue: "Universitas Kristen Maranatha, Bandung, Indonesia",
-    copyrightAboutUs: "© 2024 Tim Tasko. Dibuat dengan ❤️ di Indonesia.",
+    addressValue: "Universitas Mikroskil, Medan, Indonesia",
+    copyrightAboutUs: "© 2025 Tim Tasko. Dibuat dengan ❤️ di Indonesia.",
 
     // About Tasko Page
     aboutAppTitle: "Tentang Aplikasi Tasko",
@@ -183,8 +183,8 @@ const translations = {
     email: "Email",
     website: "Website",
     address: "Address",
-    addressValue: "Maranatha Christian University, Bandung, Indonesia",
-    copyrightAboutUs: "© 2024 Tasko Team. Made with ❤️ in Indonesia.",
+    addressValue: "Mikroskil University, Medan, Indonesia",
+    copyrightAboutUs: "© 2025 Tasko Team. Made with ❤️ in Indonesia.",
 
     // About Tasko Page
     aboutAppTitle: "About Tasko Application",
