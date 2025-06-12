@@ -12,6 +12,10 @@ export function NotificationPermissionBanner() {
   const { requestNotificationPermission } = useNotification()
   const { darkMode } = useTheme()
   const { t } = useTranslation()
+  type Task = {
+  isAutomatic: boolean
+  // Add other properties if needed
+}
 
   useEffect(() => {
     // Check if we should show the banner
@@ -22,8 +26,9 @@ export function NotificationPermissionBanner() {
 
         if (hasAutomaticTasks) {
           try {
-            const data = JSON.parse(hasAutomaticTasks)
-            const hasAutoTasks = data.tasks && data.tasks.some((task: any) => task.isAutomatic)
+            const data = JSON.parse(hasAutomaticTasks) as { tasks: Task[] }
+            const hasAutoTasks = data.tasks.some((task) => task.isAutomatic)
+
 
             if (permission === "default" && hasAutoTasks && !dismissed) {
               setShowBanner(true)

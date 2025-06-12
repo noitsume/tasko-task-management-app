@@ -54,13 +54,8 @@ export function StorageManager() {
             : "Failed to create new file. Using localStorage as fallback.",
         )
       }
-    } catch (error) {
-      showError(
-        t.language === "id"
-          ? "Error membuat file. Menggunakan localStorage sebagai fallback."
-          : "Error creating file. Using localStorage as fallback.",
-      )
-    }
+    } catch {}
+
     setIsLoading(false)
   }
 
@@ -79,13 +74,8 @@ export function StorageManager() {
             : "Failed to open file. Try using Import feature as an alternative.",
         )
       }
-    } catch (error) {
-      showError(
-        t.language === "id"
-          ? "Error membuka file. Coba gunakan fitur Impor sebagai alternatif."
-          : "Error opening file. Try using Import feature as an alternative.",
-      )
-    }
+    } catch {}
+
     setIsLoading(false)
   }
 
@@ -93,9 +83,8 @@ export function StorageManager() {
     try {
       exportData()
       showMessage(t.language === "id" ? "Data berhasil diekspor!" : "Data exported successfully!")
-    } catch (error) {
-      showError(t.language === "id" ? "Error mengekspor data" : "Error exporting data")
-    }
+    } catch {}
+
   }
 
   const handleImport = () => {

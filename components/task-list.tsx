@@ -1,6 +1,6 @@
 "use client"
 
-import { useState,useEffect, useRef } from "react"
+import { useState, useRef } from "react"
 import { Edit3, Trash2, Calendar, Flag, Hand } from "lucide-react"
 import { useTheme } from "@/context/theme-context"
 import { useTranslation } from "@/hooks/use-translation"
