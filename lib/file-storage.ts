@@ -36,10 +36,12 @@ export class FileStorageManager {
   private _checkAvailability(): void {
     try {
       // Check if running in iframe
-      const isInIframe = window !== window.top
+      const isBrowser = typeof window !== "undefined"
+
+      const isInIframe = isBrowser && window.top !== window
 
       // Check if File System Access API is available
-      const hasFileSystemAccess =
+      const hasFileSystemAccess = isBrowser && "showSaveFilePicker" in window
         typeof window.showOpenFilePicker === "function" && typeof window.showSaveFilePicker === "function"
 
       this._isAvailable = hasFileSystemAccess && !isInIframe
