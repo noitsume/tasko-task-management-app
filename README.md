@@ -1,5 +1,5 @@
 # Tasko – Task Management Web App
-## Link Deploy: 
+## Link Deploy: https://tasko-task-management-app-one.vercel.app/
 ![image](https://github.com/user-attachments/assets/3c47cd4b-4660-4476-9cf8-033726a8ceca)
 ![image](https://github.com/user-attachments/assets/87bb6216-2333-41bc-8a97-27b23530ffbe)
 
