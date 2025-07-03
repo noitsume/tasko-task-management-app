@@ -86,9 +86,10 @@
 | 2 | Implementasi fitur CRUD dasar | Validasi form belum optimal | Tambahkan form validation manual |
 | 3 | Penambahan fitur status & prioritas | Tombol filter tidak bekerja optimal | Uji state filter dan logic |
 | 4 | Implementasi dark/light mode | Warna tidak sinkron antar halaman | Pakai Context API global |
-| 5 | Penerapan notifikasi otomatis | Notifikasi tidak muncul di beberapa browser | Tambahkan in-app fallback |
+| 6 | Penerapan notifikasi otomatis | Notifikasi tidak muncul di beberapa browser | Tambahkan in-app fallback |
 | 6 | Multi-language support & timezone | Key translation tidak terbaca | Refactor struktur file JSON |
-| 7 | Refactor akhir & testing | Long press tidak responsif di mobile | Tambahkan event touch khusus |
+| 7 | Implementasi Import/Export | Kurangnya Kefleksibilitasan Penyimpanan Localstorage | Tambahkan Import/Export File agar bisa dijalankan di device mana saja |
+| 8 | Refactor akhir & testing | Long press kurang responsive | Tambahkan event touch khusus |
 
 ## Deliverables
 
